@@ -1,0 +1,14 @@
+.geostyler-cascade-button {
+  height: 100%;
+  width: 50px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.geostyler-cascade-button:hover {
+  margin-right: 10px;
+}
+.geostyler-cascade-button>span {
+  transform: rotate(180deg);
+  writing-mode: vertical-lr;
+  height: 99%;
+}
