@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import '../node_modules/antd/dist/antd.min.css';
+import 'antd/dist/antd.min.css';
 import './App.css';
 
-import en_US from '../node_modules/geostyler/dist/locale/en_US';
+import en_US from 'geostyler/dist/locale/en_US';
 import { LocaleProvider, Row, Col, Button } from 'antd';
 import SldStyleParser from 'geostyler-sld-parser';
 
